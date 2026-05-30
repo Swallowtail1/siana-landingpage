@@ -1,6 +1,14 @@
+"use client";
+
 import {Mail, Smartphone } from "lucide-react";
 import { FaGithub } from "react-icons/fa6";
 import Image from "next/image";
+import Link from "next/link";
+
+const salinEmail = () => {
+  navigator.clipboard.writeText("hafizhzuhdi123@gmail.com");
+  alert("Email berhasil disalin ke clipboard!"); // Kamu bisa ganti pakai library Toast yang lebih cantik
+};
 
 export default function Footer() {
   return (
@@ -41,17 +49,23 @@ export default function Footer() {
             <div className="mt-4 space-y-3">
               <div className="flex items-center gap-3">
                 <Mail size={18} />
-                <span>your-email@example.com</span>
+                <span onClick={salinEmail} className="cursor-pointer">
+                  Email
+                </span>
               </div>
 
               <div className="flex items-center gap-3">
                 <FaGithub size={18} />
-                <span>github.com/username</span>
+                <Link href="https://github.com/Swallowtail1" target="_blank" rel="noopener noreferrer">
+                  GitHub
+                </Link>
               </div>
 
               <div className="flex items-center gap-3">
                 <Smartphone size={18} />
-                <span>Android Application</span>
+                <Link href="#">
+                  Android Application
+                </Link>
               </div>
             </div>
           </div>

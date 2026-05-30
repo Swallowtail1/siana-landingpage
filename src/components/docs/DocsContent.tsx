@@ -55,9 +55,10 @@ export default function DocsContent() {
 
         <ul className="mt-6 list-disc pl-6 text-slate-600 space-y-2">
           <li>ESP32 Development Board</li>
-          <li>Ultrasonic Sensor</li>
-          <li>Rain Sensor</li>
-          <li>Power Supply Module</li>
+          <li>Ultrasonic HC-SR04</li>
+          <li>Accelerometer MPU-6050</li>
+          <li>Temperature and Humidity Sensor DHT22</li>
+          <li>Smoke Sensor MQ-135</li>
         </ul>
       </section>
 
