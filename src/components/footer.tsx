@@ -63,7 +63,7 @@ export default function Footer() {
 
               <div className="flex items-center gap-3">
                 <Smartphone size={18} />
-                <Link href="#">
+                <Link href="https://github.com/Swallowtail1/siana/releases/download/v1.0.0/SIANA.apk" target="_blank" rel="noopener noreferrer">
                   Android Application
                 </Link>
               </div>
