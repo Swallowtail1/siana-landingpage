@@ -45,9 +45,9 @@ export default function CTA() {
                 View Documentation
               </Link>
 
-              <button className="rounded-xl border border-white/40 px-8 py-4 font-semibold text-white transition hover:bg-white/10">
+              <Link href="https://github.com/Swallowtail1/siana/releases/download/v1.0.0/app-debug.apk" target="_blank" rel="noopener noreferrer" className="rounded-xl border border-white/40 px-8 py-4 font-semibold text-white transition hover:bg-white/10">
                 Download App
-              </button>
+              </Link>
             </div>
           </div>
         </motion.div>

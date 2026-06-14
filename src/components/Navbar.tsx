@@ -104,7 +104,7 @@ export default function Navbar() {
               <Link href="#technology" onClick={closeMenu} className="text-slate-600 hover:text-blue-600 py-1 transition-colors">
                 Technology
               </Link>
-              <Link href="#" target="_blank" 
+              <Link href="https://github.com/Swallowtail1/siana/releases/download/v1.0.0/app-debug.apk" target="_blank" 
       rel="noopener noreferrer" className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:scale-105 text-center">
               Download App
             </Link>
